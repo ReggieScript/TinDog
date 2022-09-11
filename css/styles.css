@@ -1,0 +1,186 @@
+/* html elements */
+
+h1, h3{
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+
+p{
+    font-family: 'Ubuntu';
+    font-size: 1rem;
+    color: #8f8f8f;
+}
+
+/* title section */
+
+#title{
+  background-color: #ff4c68;  
+  color:white;
+}
+
+.big-heading .pricing-title{ /*pricing title is from the title section */
+    font-size:10rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.container-fluid{
+    padding: 2% 10% 6%;
+}
+
+/* navigation bar */
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    color: white;
+    font-size:2.75rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    font-family: "Ubuntu";
+    padding: 20px;
+    font-size:1.25rem;
+}
+
+.download-button{
+    margin: 5% 3% 5% 0%;
+}
+
+.navbar{
+    padding:0 0 4.5rem 1rem;
+}
+
+/* title image */
+
+.title-image{
+    width:25%;
+    transform: rotate(20deg);
+    right: 19%;
+    position: absolute;
+}
+/* features */
+#features{
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+.feature-box{
+    text-align: center;
+    padding: 10% 0;
+}
+.feature-icon{
+    padding: 5% 0;
+    color: #ef8172;
+}
+
+.feature-icon .footer-btn:hover{
+    color: #ff4c68;
+}
+
+.feature-text{
+    size: 1.5rem;
+}
+
+/* testimonials */
+
+#testimonials{
+    background-color: #ef8172;
+    padding-bottom: 50px;
+    /* height:100vh; */
+}
+
+.carousel-item{
+    /* padding: 5% 0; */
+    text-align: center;
+}
+
+.testimonial-text{
+    padding:5%;
+    font-size:3rem;
+    font-family: "Montserrat";
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+}
+
+.clients{
+    color: white;
+    font-family: "Ubuntu";
+    font-size: 1.25rem;
+}
+
+.testimonial-image{
+    padding:20px;
+    width:12%;
+}
+
+/* press */
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-image{
+    width:15%;
+    margin: 20px 20px 50px;
+}
+
+/* pricing */
+
+#pricing{
+    text-align: center;
+}
+.pricing-header{
+    padding:50px;
+}
+
+/* call to action */
+
+#cta{
+    text-align: center;
+    background-color: #ff4c68;
+    height: 70vh;
+}
+
+.cta-title{
+    color: white;
+    font-size: 4rem;
+    padding: 5% 15%;
+}
+
+.download-button-cta{
+    margin: 15px;
+}
+
+/* footer */
+
+#footer{
+    padding-top: 75px;
+    padding-bottom: 25px;
+    height: 175px;
+    background-color: white;
+    text-align: center;
+}
+
+.footer-btn{
+    background-color: white;
+    border: none;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #8f8f8f;
+}
+
+/* changing the image */
+
+@media (max-width: 1028px){
+    .title-image{
+        position:static;
+        transform: rotate(0deg);
+        width: 75%;
+    }
+    #title{
+        text-align: center;
+    }
+}
