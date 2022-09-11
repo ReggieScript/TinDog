@@ -183,5 +183,9 @@ p{
     }
     #title{
         text-align: center;
+        height: 200vh;
+    }
+    .big-heading{
+        font-size: 4rem;
     }
 }
